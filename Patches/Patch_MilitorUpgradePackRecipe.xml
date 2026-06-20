@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MU_UpgradePack_Militor"]/statBases</xpath>
+    <value>
+      <WorkToMake>12000</WorkToMake> <!-- 제작 작업량은 칩과 동일 -->
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MU_UpgradePack_Militor"]</xpath>
+    <value>
+      <costList>
+        <NanostructuringChip>1</NanostructuringChip>
+        <Plasteel>30</Plasteel>
+        <Uranium>15</Uranium>
+        <Gold>1</Gold> <!-- 금은 x10해서 10개임 -->
+      </costList>
+
+      <recipeMaker>
+        <displayPriority>130</displayPriority>
+        <researchPrerequisite>MU_AdvancedChips</researchPrerequisite>
+        <recipeUsers>
+          <li>MU_AdvancedUpgradesAssembler</li>
+        </recipeUsers>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+</Patch>
