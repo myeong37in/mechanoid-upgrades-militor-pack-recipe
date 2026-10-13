@@ -21,6 +21,9 @@
       <recipeMaker>
         <displayPriority>130</displayPriority>
         <researchPrerequisite>MU_AdvancedChips</researchPrerequisite>
+
+        <unfinishedThingDef>NS_UnfinishedMilitorUpgradePack</unfinishedThingDef>
+
         <recipeUsers>
           <li>MU_AdvancedUpgradesAssembler</li>
         </recipeUsers>

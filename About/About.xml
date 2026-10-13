@@ -5,6 +5,7 @@
 
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 
 	<modDependencies>
@@ -28,5 +29,5 @@
 
 	<packageId>notstrober.MechanoidUpgrades.MilitorPackRecipe</packageId>
 
-	<description>Add-on for Mechanoid Upgrades that adds crafting recipes for selected upgrade packs.</description>
+	<description>Add-on for Mechanoid Upgrades that adds crafting recipes for 'Militor upgrade pack'.</description>
 </ModMetaData>
